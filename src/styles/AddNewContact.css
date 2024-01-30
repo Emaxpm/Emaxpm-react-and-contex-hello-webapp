@@ -1,0 +1,16 @@
+body{
+    color: #fff;
+}
+.addContainer{
+   width: 80%;
+   margin: auto;
+}
+.large-buttom{
+    width: 80%;
+    margin: auto;
+}
+.butons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,40 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(171, 171, 171);
+    margin-bottom: 15px;
+    color: #222;
+}
+.navb{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 70px;
+    height: 70px; /* Asegura que la altura sea igual al ancho para mantener la forma cuadrada */
+    border-radius: 50%;
+    padding: 10px;
+    border: none; /* Asegúrate de que no haya bordes alrededor de la imagen */
+}
+.titlenavb{
+    font-size: 30px;
+}
+ul{
+    list-style: none;
+}
+.listnavb{
+    display: flex;
+    align-items: baseline;   
+}
+.links{
+    padding-top: 20px;
+    padding-right: 10px;
+}
+li{
+    padding: 5px;
+}
+.nitem:hover{
+    border-bottom: solid 3px purple;
+    color: rgb(2, 212, 212)
+}

@@ -1,0 +1,10 @@
+.containerd{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    color: #222;
+}
+.men{
+    margin: 50px 100px;
+}
