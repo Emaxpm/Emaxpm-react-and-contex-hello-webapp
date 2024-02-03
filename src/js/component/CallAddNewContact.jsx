@@ -31,7 +31,7 @@ const CallAddNewContact = () => {
 
     <div>
 
-      <div className="addContainer">
+      <div className="addContainer mt-5">
 
         <div className="mb-3">
           <label className="form-label">Full name:</label>
@@ -50,10 +50,10 @@ const CallAddNewContact = () => {
           <input type="email" className="form-control" name='address' onChange={info} value={data.address} id="formGroupExampleInput2" placeholder="Enter address" />
         </div>
 
-      </div>
+        <div className="d-grid gap-2">
+          <button className="btn btn-primary large-buttom my-3" onClick={handlerInput} type="button">Save</button>
+        </div>
 
-      <div className="d-grid gap-2">
-        <button className="btn btn-primary large-buttom" onClick={handlerInput} type="button">Save</button>
       </div>
 
       <div className="butons">

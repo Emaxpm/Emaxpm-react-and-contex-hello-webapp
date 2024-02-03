@@ -2,11 +2,15 @@ body{
     color: #fff;
 }
 .addContainer{
-   width: 80%;
+   width: 50%;
    margin: auto;
+   background-color: rgb(171, 171, 171) ;
+   border: solid 2px #222;
+   padding: 10px;
+   color: #222;
 }
 .large-buttom{
-    width: 80%;
+    width: 10%;
     margin: auto;
 }
 .butons{

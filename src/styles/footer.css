@@ -1,0 +1,13 @@
+.foot-cont{
+    display: flex;
+    background-color: rgb(171, 171, 171) ;
+    align-items: center;
+    color: #222;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.foot-img{
+    width: 120px;
+}

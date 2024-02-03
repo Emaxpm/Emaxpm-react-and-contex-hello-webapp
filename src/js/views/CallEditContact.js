@@ -63,10 +63,10 @@ const CallEditContact = () => {
           <input type="text" className="form-control" name='address' value={updateAddress} onChange={(e) => setUpdateAddress(e.target.value)} id="formGroupExampleInput" placeholder="Enter Address" />
         </div>
 
-      </div>
+        <div className="d-grid gap-2">
+          <button className="btn btn-primary large-buttom" onClick={handlerEdit} type="button">Save</button>
+        </div>
 
-      <div className="d-grid gap-2">
-        <button className="btn btn-primary large-buttom" onClick={handlerEdit} type="button">Save</button>
       </div>
 
       <div className="butons">

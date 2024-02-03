@@ -12,10 +12,10 @@ nav{
 }
 .logo{
     width: 70px;
-    height: 70px; /* Asegura que la altura sea igual al ancho para mantener la forma cuadrada */
+    height: 70px; 
     border-radius: 50%;
     padding: 10px;
-    border: none; /* Asegúrate de que no haya bordes alrededor de la imagen */
+    border: none; 
 }
 .titlenavb{
     font-size: 30px;
@@ -35,6 +35,7 @@ li{
     padding: 5px;
 }
 .nitem:hover{
+    cursor: pointer;
     border-bottom: solid 3px purple;
     color: rgb(2, 212, 212)
 }
